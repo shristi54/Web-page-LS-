@@ -21,7 +21,6 @@ body {
 .bar a.active {
   float: left;
   margin-left: 40px;
-  font-weight: bolder;
   font-size: 25px;
 }
 .bgo {
@@ -68,25 +67,24 @@ body {
   justify-content: space-around;
   margin: 50px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .market {
     margin: auto;
     display: inline;
   }
   .bar a {
     justify-content: space-around;
-    margin-top: 2px;
+    margin-top: 3px;
     margin-right: 5px;
     float: right;
     color: #b6a7a7;
-    padding: 3px 16px;
+
     text-decoration: none;
     font-size: 13px;
   }
   .bar a.active {
     float: left;
-    margin-left: 8px;
-    font-weight: bolder;
+    margin-left: 2px;
     font-size: 18px;
   }
 }
