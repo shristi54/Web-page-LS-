@@ -75,7 +75,8 @@ body {
   }
   .bar a {
     justify-content: space-around;
-    margin-right: 10px;
+    margin: 1px;
+    margin-right: 7px;
     float: right;
     color: #b6a7a7;
     padding: 3px 16px;
@@ -84,7 +85,7 @@ body {
   }
   .bar a.active {
     float: left;
-    margin-left: 40px;
+    margin-left: 8px;
     font-weight: bolder;
     font-size: 18px;
   }
