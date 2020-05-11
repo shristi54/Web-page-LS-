@@ -22,7 +22,7 @@ body {
   float: left;
   margin-left: 40px;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 30px;
 }
 .bgo {
   background-color: rgba(0, 0, 0, 0.7);
@@ -75,7 +75,7 @@ body {
   }
   .bar a {
     justify-content: space-around;
-    margin-top: 3px;
+    margin-top: 14px;
     margin-right: 5px;
     float: right;
     color: #b6a7a7;
@@ -84,10 +84,11 @@ body {
     font-size: 13px;
   }
   .bar a.active {
+    margin-top: 2px;
     float: left;
     margin-left: 2px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 28px;
   }
 }
 .camera img {
